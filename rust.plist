@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BBEditDocumentType</key>
+	<string>CodelessLanguageModule</string>
+	<key>BBLMColorsSyntax</key>
+	<true/>
+	<key>BBLMCommentPrefixDefault</key>
+	<string>// </string>
+	<key>BBLMIsCaseSensitive</key>
+	<true/>
+	<key>BBLMKeywordList</key>
+	<array>
+		<string>alt</string>
+		<string>auth</string>
+		<string>assert</string>
+		<string>auto</string>
+		<string>be</string>
+		<string>bind</string>
+		<string>break</string>
+		<string>check</string>
+		<string>claim</string>
+		<string>const</string>
+		<string>cont</string>
+		<string>do</string>
+		<string>else</string>
+		<string>export</string>
+		<string>fail</string>
+		<string>false</string>
+		<string>fn</string>
+		<string>for</string>
+		<string>if</string>
+		<string>import</string>
+		<string>in</string>
+		<string>iter</string>
+		<string>lambda</string>
+		<string>let</string>
+		<string>log_err</string>
+		<string>log</string>
+		<string>mod</string>
+		<string>native</string>
+		<string>obj</string>
+		<string>pred</string>
+		<string>prove</string>
+		<string>put</string>
+		<string>resource</string>
+		<string>ret</string>
+		<string>tag</string>
+		<string>true</string>
+		<string>type</string>
+		<string>use</string>
+		<string>while</string>
+	</array>
+	<key>BBLMLanguageCode</key>
+	<string>rust</string>
+	<key>BBLMLanguageDisplayName</key>
+	<string>Rust</string>
+	<key>BBLMScansFunctions</key>
+	<true/>
+	<key>BBLMSuffixMap</key>
+	<array>
+		<dict>
+			<key>BBLMLanguageSuffix</key>
+			<string>.rs</string>
+		</dict>
+		<dict>
+			<key>BBLMLanguageSuffix</key>
+			<string>.rc</string>
+		</dict>
+	</array>
+	<key>Language Features</key>
+	<dict>
+		<key>Comment Pattern</key>
+		<string>(?://.*$|(?m:/\\*(?:.|[\r\n])*?\\*/))</string>
+		<key>Function Pattern</key>
+		<string></string>
+		<key>String Pattern</key>
+		<string>(?x:
+			(?&gt;	"	(?s: \\. | [^"] )*?		(?: " | $)	)	|
+			(?&gt;	'	(?s: \\. | [^'] )*?		(?: ' | $)	)
+		)</string>
+		<key>Skip Pattern</key>
+		<string></string>
+		<key>Identifier and Keyword Character Class</key>
+		<string>0-9A-Z_a-z</string>
+	</dict>
+</dict>
+</plist>
