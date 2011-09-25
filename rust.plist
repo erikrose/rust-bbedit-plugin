@@ -71,19 +71,42 @@
 	</array>
 	<key>Language Features</key>
 	<dict>
-		<key>Comment Pattern</key>
-		<string>(?://.*$|(?m:/\\*(?:.|[\r\n])*?\\*/))</string>
-		<key>Function Pattern</key>
-		<string></string>
-		<key>String Pattern</key>
-		<string>(?x:
-			(?&gt;	"	(?s: \\. | [^"] )*?		(?: " | $)	)	|
-			(?&gt;	'	(?s: \\. | [^'] )*?		(?: ' | $)	)
-		)</string>
 		<key>Skip Pattern</key>
 		<string></string>
 		<key>Identifier and Keyword Character Class</key>
 		<string>0-9A-Z_a-z</string>
+		<key>Prefix for Functions</key>
+		<string>fn</string>
+		<key>Open Parameter Lists</key>
+		<string>(</string>
+		<key>Close Parameter Lists</key>
+		<string>)</string>
+		<key>Open Statement Blocks</key>
+		<string>{</string>
+		<key>Close Statement Blocks</key>
+		<string>}</string>
+		<key>Open Block Comments</key>
+		<string>/*</string>
+		<key>Close Block Comments</key>
+		<string>*/</string>
+		<key>Open Line Comments</key>
+		<string>//</string>
+		<key>Open Strings 1</key>
+		<string>"</string>
+		<key>Close Strings 1</key>
+		<string>"</string>
+		<key>Escape Char in Strings 1</key>
+		<string>\</string>
+		<key>End-of-line Ends Strings 1</key>
+		<true/>
+		<key>Open Strings 2</key>
+		<string>'</string>
+		<key>Close Strings 2</key>
+		<string>'</string>
+		<key>Escape Char in Strings 2</key>
+		<string>\</string>
+		<key>End-of-line Ends Strings 2</key>
+		<true/>
 	</dict>
 </dict>
 </plist>
