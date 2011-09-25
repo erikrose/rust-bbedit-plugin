@@ -6,8 +6,7 @@ Patches welcome!
 Features
 ========
 
-* Keyword highlighting
-* String highlighting
+* Keyword, string, and comment highlighting
 * Function scanning with folding support
 
 Installation
