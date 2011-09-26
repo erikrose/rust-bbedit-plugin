@@ -126,7 +126,7 @@
 		<key>Escape Char in Strings 1</key>
 		<string>\</string>
 		<key>End-of-line Ends Strings 1</key>
-		<true/>
+		<false/>
 		<key>Open Strings 2</key>
 		<string>'</string>
 		<key>Close Strings 2</key>
