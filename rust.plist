@@ -13,44 +13,71 @@
 	<key>BBLMKeywordList</key>
 	<array>
 		<string>alt</string>
-		<string>auth</string>
+		<string>any</string>
+		<string>as</string>
 		<string>assert</string>
-		<string>auto</string>
+		<string>auth</string>
 		<string>be</string>
 		<string>bind</string>
+		<string>bool</string>
 		<string>break</string>
+		<string>case</string>
+		<string>char</string>
 		<string>check</string>
 		<string>claim</string>
 		<string>const</string>
 		<string>cont</string>
 		<string>do</string>
+		<string>each</string>
 		<string>else</string>
 		<string>export</string>
+		<string>f32</string>
+		<string>f64</string>
 		<string>fail</string>
 		<string>false</string>
+		<string>float</string>
 		<string>fn</string>
 		<string>for</string>
+		<string>i16</string>
+		<string>i32</string>
+		<string>i64</string>
+		<string>i8</string>
 		<string>if</string>
 		<string>import</string>
 		<string>in</string>
+		<string>int</string>
 		<string>iter</string>
 		<string>lambda</string>
 		<string>let</string>
-		<string>log_err</string>
 		<string>log</string>
 		<string>mod</string>
+		<string>mutable</string>
 		<string>native</string>
+		<string>note</string>
 		<string>obj</string>
-		<string>pred</string>
 		<string>prove</string>
+		<string>pure</string>
 		<string>put</string>
 		<string>resource</string>
 		<string>ret</string>
+		<string>self</string>
+		<string>str</string>
+		<string>syntax</string>
 		<string>tag</string>
 		<string>true</string>
+		<string>tup</string>
 		<string>type</string>
+		<string>u16</string>
+		<string>u32</string>
+		<string>u64</string>
+		<string>u8</string>
+		<string>uint</string>
+		<string>unchecked</string>
+		<string>unsafe</string>
 		<string>use</string>
+		<string>vec</string>
 		<string>while</string>
+		<string>with</string>
 	</array>
 	<key>BBLMLanguageCode</key>
 	<string>rust</string>
