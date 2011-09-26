@@ -50,6 +50,7 @@
 		<string>lambda</string>
 		<string>let</string>
 		<string>log</string>
+		<string>log_err</string>
 		<string>mod</string>
 		<string>mutable</string>
 		<string>native</string>
