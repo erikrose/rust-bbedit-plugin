@@ -6,79 +6,82 @@
 	<string>CodelessLanguageModule</string>
 	<key>BBLMColorsSyntax</key>
 	<true/>
-	<key>BBLMCommentPrefixDefault</key>
+	<key>BBLMCommentLineDefault</key>
 	<string>// </string>
+	<key>BBLMCommentPrefixDefault</key>
+	<string>/* </string>
+	<key>BBLMCommentSuffixDefault</key>
+	<string> */</string>
 	<key>BBLMIsCaseSensitive</key>
 	<true/>
+	<!-- http://static.rust-lang.org/doc/master/rust.html#keywords -->
 	<key>BBLMKeywordList</key>
 	<array>
-		<string>alt</string>
-		<string>any</string>
 		<string>as</string>
-		<string>assert</string>
-		<string>auth</string>
-		<string>be</string>
-		<string>bind</string>
-		<string>bool</string>
 		<string>break</string>
-		<string>case</string>
-		<string>char</string>
-		<string>check</string>
-		<string>claim</string>
-		<string>const</string>
-		<string>cont</string>
 		<string>do</string>
-		<string>each</string>
 		<string>else</string>
-		<string>export</string>
+		<string>enum</string>
+		<string>extern</string>
+		<string>false</string>
+		<string>fn</string>
+		<string>for</string>
+		<string>if</string>
+		<string>impl</string>
+		<string>in</string>
+		<string>let</string>
+		<string>loop</string>
+		<string>match</string>
+		<string>mod</string>
+		<string>mut</string>
+		<string>priv</string>
+		<string>pub</string>
+		<string>ref</string>
+		<string>return</string>
+		<string>self</string>
+		<string>static</string>
+		<string>struct</string>
+		<string>super</string>
+		<string>true</string>
+		<string>trait</string>
+		<string>type</string>
+		<string>unsafe</string>
+		<string>use</string>
+		<string>while</string>
+	</array>
+	<key>BBLMPredefinedNameList</key>
+	<array>
+		<string>assert</string>
+		<string>bool</string>
+		<string>char</string>
+		<string>debug</string>
+		<string>env</string>
+		<string>error</string>
+		<string>externfn</string>
 		<string>f32</string>
 		<string>f64</string>
 		<string>fail</string>
-		<string>false</string>
 		<string>float</string>
-		<string>fn</string>
-		<string>for</string>
+		<string>fmt</string>
 		<string>i16</string>
 		<string>i32</string>
 		<string>i64</string>
 		<string>i8</string>
-		<string>if</string>
-		<string>import</string>
-		<string>in</string>
+		<string>include</string>
+		<string>include_bin</string>
+		<string>include_str</string>
+		<string>info</string>
 		<string>int</string>
-		<string>iter</string>
-		<string>lambda</string>
-		<string>let</string>
-		<string>log</string>
-		<string>log_err</string>
-		<string>mod</string>
-		<string>mutable</string>
-		<string>native</string>
-		<string>note</string>
-		<string>obj</string>
-		<string>prove</string>
-		<string>pure</string>
-		<string>put</string>
-		<string>resource</string>
-		<string>ret</string>
-		<string>self</string>
+		<string>proto</string>
 		<string>str</string>
-		<string>syntax</string>
-		<string>tag</string>
-		<string>true</string>
-		<string>tup</string>
-		<string>type</string>
+		<string>stringify</string>
 		<string>u16</string>
 		<string>u32</string>
 		<string>u64</string>
 		<string>u8</string>
 		<string>uint</string>
-		<string>unchecked</string>
-		<string>unsafe</string>
-		<string>use</string>
 		<string>vec</string>
-		<string>while</string>
-		<string>with</string>
+		<string>warn</string>
 	</array>
 	<key>BBLMLanguageCode</key>
 	<string>rust</string>
