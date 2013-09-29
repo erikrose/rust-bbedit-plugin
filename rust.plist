@@ -127,14 +127,6 @@
 		<string>\</string>
 		<key>End-of-line Ends Strings 1</key>
 		<false/>
-		<key>Open Strings 2</key>
-		<string>'</string>
-		<key>Close Strings 2</key>
-		<string>'</string>
-		<key>Escape Char in Strings 2</key>
-		<string>\</string>
-		<key>End-of-line Ends Strings 2</key>
-		<true/>
 	</dict>
 </dict>
 </plist>
