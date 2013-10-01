@@ -52,6 +52,7 @@
 	<key>BBLMPredefinedNameList</key>
 	<array>
 		<string>assert</string>
+		<string>assert_eq</string>
 		<string>bool</string>
 		<string>char</string>
 		<string>debug</string>
