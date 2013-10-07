@@ -19,6 +19,7 @@
 	<array>
 		<string>alignof</string>
 		<string>as</string>
+		<string>be</string>
 		<string>break</string>
 		<string>continue</string>
 		<string>do</string>
