@@ -39,6 +39,7 @@
 		<string>offsetof</string>
 		<string>priv</string>
 		<string>pub</string>
+		<string>pure</string>
 		<string>ref</string>
 		<string>return</string>
 		<string>self</string>
