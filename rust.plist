@@ -17,6 +17,7 @@
 	<!-- http://static.rust-lang.org/doc/master/rust.html#keywords -->
 	<key>BBLMKeywordList</key>
 	<array>
+		<string>alignof</string>
 		<string>as</string>
 		<string>break</string>
 		<string>continue</string>
@@ -35,11 +36,13 @@
 		<string>match</string>
 		<string>mod</string>
 		<string>mut</string>
+		<string>offsetof</string>
 		<string>priv</string>
 		<string>pub</string>
 		<string>ref</string>
 		<string>return</string>
 		<string>self</string>
+		<string>sizeof</string>
 		<string>static</string>
 		<string>struct</string>
 		<string>super</string>
