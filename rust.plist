@@ -62,6 +62,7 @@
 		<string>f32</string>
 		<string>f64</string>
 		<string>fail</string>
+		<string>fail2</string>
 		<string>float</string>
 		<string>fmt</string>
 		<string>i16</string>
