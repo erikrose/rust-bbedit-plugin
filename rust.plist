@@ -17,8 +17,11 @@
 	<!-- http://static.rust-lang.org/doc/master/rust.html#keywords -->
 	<key>BBLMKeywordList</key>
 	<array>
+		<string>alignof</string>
 		<string>as</string>
+		<string>be</string>
 		<string>break</string>
+		<string>continue</string>
 		<string>do</string>
 		<string>else</string>
 		<string>enum</string>
@@ -34,11 +37,14 @@
 		<string>match</string>
 		<string>mod</string>
 		<string>mut</string>
+		<string>offsetof</string>
 		<string>priv</string>
 		<string>pub</string>
+		<string>pure</string>
 		<string>ref</string>
 		<string>return</string>
 		<string>self</string>
+		<string>sizeof</string>
 		<string>static</string>
 		<string>struct</string>
 		<string>super</string>
@@ -48,10 +54,12 @@
 		<string>unsafe</string>
 		<string>use</string>
 		<string>while</string>
+		<string>yield</string>
 	</array>
 	<key>BBLMPredefinedNameList</key>
 	<array>
 		<string>assert</string>
+		<string>assert_eq</string>
 		<string>bool</string>
 		<string>char</string>
 		<string>debug</string>
@@ -61,6 +69,7 @@
 		<string>f32</string>
 		<string>f64</string>
 		<string>fail</string>
+		<string>fail2</string>
 		<string>float</string>
 		<string>fmt</string>
 		<string>i16</string>
