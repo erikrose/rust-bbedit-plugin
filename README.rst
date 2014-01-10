@@ -18,9 +18,11 @@ Support/BBEdit/Language Modules``.
 To install with TextWrangler, copy ``rust.plist`` into ``~/Library/Application
 Support/TextWrangler/Language Modules``.
 
-.. _`Rust language`: http://www.rust-lang.org/
+Optionally add a custom extension mapping (suffix ".rs") in **Preferences > Languages**.
 
 Author
 ======
 
 Erik Rose. Suggestions? Mail erik att mozilla dott com.
+
+.. _`Rust language`: http://www.rust-lang.org/
